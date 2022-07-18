@@ -86,10 +86,18 @@ body {
   padding-right: 30%;
 }
 
+#hambur_menu a:hover {
+  background-color: red;
+}
+
 #hambur_menu .menu_ham_mob {
   background-image: url(./img/close_white_24dp.svg);
   background-repeat: no-repeat, repeat;
   display: none;
+}
+
+#hambur_menu .menu_ham_mob:active {
+  background-color: #555;
 }
 
 #hambur_menu .menu_ham_mob span {
@@ -534,11 +542,19 @@ body {
   display: none;
 }
 
-@media only screen and (max-width: 1800px) {
+@media only screen and (min-width: 767px) and (max-width: 1800px) {
   body {
     background-color: #191765;
     margin: 0;
     padding: 0 8%;
+  }
+
+  #hambur_menu .menu_ham_mob span {
+    display: none;
+  }
+
+  #hambur_menu > a {
+    display: none !important;
   }
 }
 
