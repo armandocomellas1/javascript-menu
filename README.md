@@ -2,14 +2,15 @@
 
 # Project Name
 
-- Portfolio: application deploy
+- ortfolio - mobile menu
 
 ## Built With
 
 - HTML5
 - CSS
 - Flexbox and CSS Grid in order to make a structure in the html and look nice.
-- Media Query (very important)
+- Media Query (very important).
+- JavaScript (Fist time using this technology for a particular feature).
 
 ## Getting Started
 
@@ -17,7 +18,7 @@
 
 **This is an example of how you may give instructions on setting up your project locally.**
 
-This is about how the desktop and mobile application can be deployed in gh server.
+This is about how to maniplate DOM using js and making the hamburger menu interactively.
 
 # Project link live version
 https://armandocomellas1.github.io/Desktop-version/

@@ -20,10 +20,10 @@ body {
 
 .menucontainer {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between !important;
   line-height: 50px;
   align-items: center;
-  margin: 2% 15%;
+  margin: 2% 25%;
 }
 
 .menucontainer .navmenu {
@@ -81,9 +81,16 @@ body {
 }
 
 #hambur_menu a {
+  background-image: url(./img/Union.svg);
+  background-repeat: no-repeat, repeat;
+  background-position: right;
   display: none;
   margin-top: 30%;
   padding-right: 30%;
+}
+
+#hambur_menu {
+  display: flex;
 }
 
 #hambur_menu a:hover {
@@ -545,6 +552,11 @@ body {
     padding: 0 8%;
   }
 
+  .menucontainer {
+    display: flex;
+    width: 70%;
+  }
+
   #hambur_menu a {
     display: none !important;
   }
@@ -565,6 +577,11 @@ body {
     font-size: 30px;
   }
 
+  .menucontainer {
+    display: flex;
+    width: 70%;
+  }
+
   .works .container_column .firts_p p {
     font-size: 17px;
   }
@@ -579,6 +596,11 @@ body {
     background-color: #191765;
     margin: 0;
     padding: 0 1%;
+  }
+
+  .menucontainer {
+    display: flex;
+    width: 70%;
   }
 
   .works .container_column .firts_p p {
@@ -597,6 +619,11 @@ body {
     padding: 0 1%;
   }
 
+  .menucontainer {
+    display: flex;
+    width: 70%;
+  }
+
   .works .container_column .firts_p p {
     font-size: 13px;
   }
@@ -611,6 +638,11 @@ body {
     background-color: #191765;
     margin: 0;
     padding: 0 1%;
+  }
+
+  .menucontainer {
+    display: flex;
+    width: 70%;
   }
 
   .works .firts_p h2 {
@@ -633,6 +665,11 @@ body {
     padding: 0 1%;
   }
 
+  .menucontainer {
+    display: flex;
+    width: 70%;
+  }
+
   .works .firts_p h2 {
     font-size: 20px;
   }
@@ -649,7 +686,21 @@ body {
 @media only screen and (max-width: 767px) {
   .menucontainer {
     display: flex;
-    justify-content: space-between;
+    width: 70%;
+  }
+
+  #hambur_menu {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 100% !important;
+  }
+
+  #hambur_menu .menu_ham_mob {
+    display: flex;
+    width: 100%;
+    margin-left: 200%;
   }
 
   .desktop_works {
@@ -703,6 +754,12 @@ body {
 
   .formsection p {
     margin-bottom: 20px;
+  }
+
+  .ham_menu {
+    margin: 15px 0 !important;
+    width: 70% !important;
+    display: flex;
   }
 
   .works .firts_p p {
@@ -842,12 +899,15 @@ body {
 
   .menucontainer {
     display: flex;
+    width: 70%;
   }
 
   .name_head {
     font-weight: 300;
-    font-size: 30px;
+    font-size: 1.2rem !important;
+    line-height: normal !important;
     color: #fff;
+    width: 100%;
   }
 
   .desktop_works {
@@ -1068,12 +1128,6 @@ body {
   .menucontainer {
     display: flex;
     width: 70%;
-  }
-
-  .name_head {
-    font-weight: 300;
-    font-size: 30px;
-    color: #fff;
   }
 
   .desktop_works {
@@ -1309,12 +1363,6 @@ body {
   .menucontainer {
     display: flex;
     width: 70%;
-  }
-
-  .name_head {
-    font-weight: 300;
-    font-size: 30px;
-    color: #fff;
   }
 
   .middle_works .second_main {
@@ -1560,12 +1608,6 @@ body {
   .menucontainer {
     display: flex;
     width: 50%;
-  }
-
-  .name_head {
-    font-weight: 300;
-    font-size: 20px;
-    color: #fff;
   }
 
   .desktop_works {
