@@ -18,4 +18,3 @@ function desktopMob() {
   document.getElementsByClassName("ham_menu")[2].style.display = "none";
   console.log("correct ", gets);
 }
-
