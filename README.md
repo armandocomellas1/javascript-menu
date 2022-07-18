@@ -6,8 +6,8 @@
 
 ## Built With
 
-- HTML5
-- CSS
+- HTML5.
+- CSS.
 - Flexbox and CSS Grid in order to make a structure in the html and look nice.
 - Media Query (very important).
 - JavaScript (Fist time using this technology for a particular feature).
