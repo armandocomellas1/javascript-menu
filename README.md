@@ -18,7 +18,7 @@
 
 **This is an example of how you may give instructions on setting up your project locally.**
 
-This is about how to maniplate DOM using js and making the hamburger menu interactively.
+This is about how to maniplate DOM using js and making the hamburger menu interactively with the user.
 
 # Project link live version
 https://armandocomellas1.github.io/Desktop-version/
