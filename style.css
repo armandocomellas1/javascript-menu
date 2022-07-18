@@ -23,7 +23,7 @@ body {
   justify-content: space-between;
   line-height: 50px;
   align-items: center;
-  margin: 2% 10%;
+  margin: 2% 15%;
 }
 
 .menucontainer .navmenu {
@@ -78,6 +78,25 @@ body {
   align-items: center;
   justify-content: end;
   padding-left: 20px;
+}
+
+#hambur_menu a {
+  display: none;
+  margin-top: 30%;
+  padding-right: 30%;
+}
+
+#hambur_menu .menu_ham_mob {
+  background-image: url(./img/close_white_24dp.svg);
+  background-repeat: no-repeat, repeat;
+  display: none;
+}
+
+#hambur_menu .menu_ham_mob span {
+  color: #191765;
+  margin-right: 0;
+  padding-right: 0;
+  display: flex;
 }
 
 .part_section {
