@@ -2,7 +2,7 @@
 
 # Project Name
 
-- ortfolio - mobile menu
+- ortfolio - mobile menu.
 
 ## Built With
 
