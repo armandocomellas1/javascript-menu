@@ -13,11 +13,11 @@
   <div class="container">
       <header class="menucontainer">
         <h4 class="name_head">John Doe</h4>
-        <nav class="navmenu">
-          <a href="">Portfolio</a>
-          <a href="">About</a>
-          <a href="">Contact</a>
-            <div class="menu_icon">
+        <nav id="hambur_menu" class="navmenu">
+          <a class="ham_menu" href="">Portfolio</a>
+          <a class="ham_menu" href="">About</a>
+          <a class="ham_menu" href="">Contact</a>
+            <div class="menu_icon" onClick="mobileMenu()">
               <span class="material-symbols-outlined">
                   menu
               </span>
@@ -26,7 +26,12 @@
               <span class="material-symbols-outlined">
                   mail
               </span>
-          </div>
+            </div>
+            <div class="menu_ham_mob" onClick="desktopMob()">
+              <span class="">
+                  mail
+              </span>
+            </div>
         </nav>
     </header>
     <section class="works desktop_works">
