@@ -1,6 +1,7 @@
 {
   "dependencies": {
-    "lighthouse": "^9.6.3"
+    "lighthouse": "^9.6.3",
+    "uuid": "^8.3.2"
   },
   "name": "javascript-menu",
   "description": "![](https://img.shields.io/badge/Microverse-blueviolet)",
