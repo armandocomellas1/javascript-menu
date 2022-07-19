@@ -8,6 +8,7 @@ function mobileMenu() {
   document.getElementsByClassName('ham_menu')[2].style.display = 'flex';
 }
 mobileMenu();
+
 function desktopMob() {
   document.getElementsByClassName('name_head')[0].style.display = 'flex';
   document.getElementsByClassName('material-symbols-outlined')[0].style.display = 'flex';
