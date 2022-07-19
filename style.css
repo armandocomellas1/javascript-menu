@@ -45,7 +45,7 @@ body {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 15px;
+  font-size: 20px;
   line-height: 20px;
   color: #fff;
   text-align: center;
@@ -179,7 +179,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 80px;
+  margin-bottom: 300px !important;
   margin-top: 90px;
   padding: 0 10%;
 }
@@ -685,15 +685,14 @@ body {
 
 @media only screen and (max-width: 767px) {
   .menucontainer {
-    display: flex;
-    width: 70%;
+    display: flex !important;
+    width: 80% !important;
+    margin: 2% 13% !important;
   }
 
   #hambur_menu {
     display: flex !important;
     flex-direction: column !important;
-    justify-content: center !important;
-    align-items: center !important;
     width: 100% !important;
   }
 
@@ -758,8 +757,7 @@ body {
 
   .ham_menu {
     margin: 15px 0 !important;
-    width: 70% !important;
-    display: flex;
+    width: 73% !important;
   }
 
   .works .firts_p p {
@@ -899,7 +897,14 @@ body {
 
   .menucontainer {
     display: flex;
-    width: 70%;
+    width: 80%;
+    margin: 2% 13%;
+  }
+
+  #hambur_menu {
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100% !important;
   }
 
   .name_head {
@@ -1127,7 +1132,14 @@ body {
 
   .menucontainer {
     display: flex;
-    width: 70%;
+    width: 80%;
+    margin: 2% 13%;
+  }
+
+  #hambur_menu {
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100% !important;
   }
 
   .desktop_works {
@@ -1362,7 +1374,14 @@ body {
 
   .menucontainer {
     display: flex;
-    width: 70%;
+    width: 80%;
+    margin: 2% 13%;
+  }
+
+  #hambur_menu {
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100% !important;
   }
 
   .middle_works .second_main {
@@ -1607,7 +1626,14 @@ body {
 
   .menucontainer {
     display: flex;
-    width: 50%;
+    width: 80%;
+    margin: 2% 13%;
+  }
+
+  #hambur_menu {
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100% !important;
   }
 
   .desktop_works {
@@ -1760,8 +1786,6 @@ body {
 
   .menu_icon {
     display: flex;
-    margin-left: 100% !important;
-    padding-left: 50px !important;
   }
 
   .menu_icon .material-symbols-outlined {

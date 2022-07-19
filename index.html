@@ -11,29 +11,29 @@
 </head>
 <body>
   <div class="container">
-      <header class="menucontainer">
-        <h4 class="name_head">John Doe</h4>
-        <nav id="hambur_menu" class="navmenu">
-          <div class="menu_ham_mob" onClick="desktopMob()">
-            <span class="">
+    <header class="menucontainer">
+      <h4 class="name_head">John Doe</h4>
+      <nav id="hambur_menu" class="navmenu">
+        <div class="menu_ham_mob" onClick="desktopMob()">
+          <span class="">
+              mail
+          </span>
+        </div>
+        <a class="ham_logo" href=""></a>
+        <a class="ham_menu" href="#portfolio_work">Portfolio</a>
+        <a class="ham_menu" href="#about_part">About</a>
+        <a class="ham_menu" href="#form_contacts">Contact</a>
+          <div class="menu_icon" onClick="mobileMenu()">
+            <span class="material-symbols-outlined">
+                menu
+            </span>
+          </div>
+          <div class="menu_desktop">
+            <span class="material-symbols-outlined">
                 mail
             </span>
           </div>
-          <a class="ham_logo" href="#">Contact</a>
-          <a class="ham_menu" href="#">Portfolio</a>
-          <a class="ham_menu" href="#">About</a>
-          <a class="ham_menu" href="#">Contact</a>
-            <div class="menu_icon" onClick="mobileMenu()">
-              <span class="material-symbols-outlined">
-                  menu
-              </span>
-            </div>
-            <div class="menu_desktop">
-              <span class="material-symbols-outlined">
-                  mail
-              </span>
-            </div>
-        </nav>
+      </nav>
     </header>
     <section class="works desktop_works">
         <div class="special"></div>
@@ -69,14 +69,14 @@
         </div>
         <p class="division_section"></p>
         <div class="logos">
-          <img src="img/Vector.png" alt="GitHub">
-          <img src="img/dos.png" alt="LinkedIn">
-          <img src="img/tres.png" alt="Angelist">
-          <img src="img/instagram.png" alt="Instagram">
-          <img src="img/cuatro.png" alt="Medium">
+          <img src="./img/Vector.png" alt="GitHub">
+          <img src="./img/dos.png" alt="LinkedIn">
+          <img src="./img/tres.png" alt="Angelist">
+          <img src="./img/instagram.png" alt="Instagram">
+          <img src="./img/cuatro.png" alt="Medium">
         </div>
     </section>
-    <section class="works middle_works">
+    <section  id="portfolio_work" class="works middle_works">
       <h2 class="second_main">My recent work</h2>
       <div class="division_section_works"></div>
       <div class="container_works first_style_column">
@@ -153,11 +153,11 @@
           </div>
         </div>
       </div>
-      <article class="about_p">
+      <article id="about_part" class="about_p">
         <h2 class="about">About myself</h2>
         <p>Hello my name is Armando, l am a software developer wich is trying to boost and get strong my skills in coding and learng new tools and new techngolies and l love coding.</p>
       </article>
-      <div class="formsection">
+      <div id="form_contacts" class="formsection">
         <h3 class="styleh3">CONTACT US</h3>
         <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I'd love to help with it </p>
         <form action="https://formspree.io/f/moqrojze" method="POST" class="formstyle">
@@ -174,15 +174,15 @@
     <p class="division_sections"></p>
     <footer class="footer_class">
       <div class="logos">
-        <img src="img/Vector.png" alt="GitHub">
-        <img src="img/dos.png" alt="LinkedIn">
-        <img src="img/instagram.png" alt="Instagram">
-        <img src="img/cuatro.png" alt="Medium">
+        <img src="./img/Vector.png" alt="GitHub">
+        <img src="./img/dos.png" alt="LinkedIn">
+        <img src="./img/instagram.png" alt="Instagram">
+        <img src="./img/cuatro.png" alt="Medium">
       </div>
       <p class="emails">businesswitharmando@gmail.com</p>
     </footer>
     <p class="division_footer"></p>
   </div>
-  <script src="/javascript.js"></script>
+  <script src="./javascript.js"></script>
 </body>
 </html>
