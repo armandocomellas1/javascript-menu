@@ -45,7 +45,7 @@ body {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 15px;
+  font-size: 20px;
   line-height: 20px;
   color: #fff;
   text-align: center;
@@ -687,9 +687,6 @@ body {
   .menucontainer {
     display: flex !important;
     width: 80% !important;
-  }
-
-  .menucontainer {
     margin: 2% 13% !important;
   }
 
@@ -901,9 +898,6 @@ body {
   .menucontainer {
     display: flex;
     width: 80%;
-  }
-
-  .menucontainer {
     margin: 2% 13%;
   }
 
@@ -1139,9 +1133,6 @@ body {
   .menucontainer {
     display: flex;
     width: 80%;
-  }
-
-  .menucontainer {
     margin: 2% 13%;
   }
 
@@ -1384,9 +1375,6 @@ body {
   .menucontainer {
     display: flex;
     width: 80%;
-  }
-
-  .menucontainer {
     margin: 2% 13%;
   }
 
@@ -1639,9 +1627,6 @@ body {
   .menucontainer {
     display: flex;
     width: 80%;
-  }
-
-  .menucontainer {
     margin: 2% 13%;
   }
 
